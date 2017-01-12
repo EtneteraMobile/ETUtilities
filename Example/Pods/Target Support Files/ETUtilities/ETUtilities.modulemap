@@ -1,0 +1,6 @@
+framework module ETUtilities {
+  umbrella header "ETUtilities-umbrella.h"
+
+  export *
+  module * { export * }
+}

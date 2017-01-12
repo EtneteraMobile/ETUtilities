@@ -1,0 +1,23 @@
+{
+  "name": "ETUtilities",
+  "version": "2.0",
+  "summary": "Coding utilities to easiest everyday hard work.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/ETUtilities",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Etnetera Mobile": "mobile@etnetera.cz"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/ETUtilities.git",
+    "tag": "2.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ETUtilities/Classes/**/*",
+  "frameworks": "UIKit"
+}
