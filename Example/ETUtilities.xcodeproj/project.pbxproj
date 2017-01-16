@@ -12,9 +12,12 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		607FACEC1AFB9204008FA782 /* CollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* CollectionTests.swift */; };
+		711E89711E28A947000175FE /* DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711E896F1E28A8DE000175FE /* DictionaryTests.swift */; };
+		71434CF51E29255E00A6432B /* ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71434CF41E29255E00A6432B /* ApplicationTests.swift */; };
 		93AB11E1AD752BA146A2A103 /* Pods_ETUtilities_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CAE23A9647F791673AEB6B /* Pods_ETUtilities_Tests.framework */; };
 		9932FF161FEAA0B6C9168CE1 /* Pods_ETUtilities_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379CE007E58A5A706946CC21 /* Pods_ETUtilities_Example.framework */; };
+		9BAB756EACF9979FEDDB639D /* Pods_ETUtilities_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6C7B5D849CF3151C5E1929 /* Pods_ETUtilities_UITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,11 +28,19 @@
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
 			remoteInfo = ETUtilities;
 		};
+		71434CED1E29229F00A6432B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = ETUtilities_Example;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		05382C004C853F0E06235E01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		379CE007E58A5A706946CC21 /* Pods_ETUtilities_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ETUtilities_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6C7B5D849CF3151C5E1929 /* Pods_ETUtilities_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ETUtilities_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* ETUtilities_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETUtilities_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,11 +50,17 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* ETUtilities_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ETUtilities_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		607FACEB1AFB9204008FA782 /* CollectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTests.swift; sourceTree = "<group>"; };
 		630E67FD6BD113391819BACA /* Pods-ETUtilities_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ETUtilities_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ETUtilities_Example/Pods-ETUtilities_Example.release.xcconfig"; sourceTree = "<group>"; };
+		711E896F1E28A8DE000175FE /* DictionaryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryTests.swift; sourceTree = "<group>"; };
+		71434CE81E29229F00A6432B /* ETUtilities_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ETUtilities_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71434CEC1E29229F00A6432B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71434CF41E29255E00A6432B /* ApplicationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationTests.swift; sourceTree = "<group>"; };
 		78444BF3076B574DFA4997F7 /* ETUtilities.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ETUtilities.podspec; path = ../ETUtilities.podspec; sourceTree = "<group>"; };
+		7B30640342787E0E06574F06 /* Pods-ETUtilities_UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ETUtilities_UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ETUtilities_UITests/Pods-ETUtilities_UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		82CAE23A9647F791673AEB6B /* Pods_ETUtilities_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ETUtilities_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D9CA1B1F489C0AC8184ACA /* Pods-ETUtilities_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ETUtilities_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ETUtilities_Example/Pods-ETUtilities_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		90AE40B97B901289C6B3943F /* Pods-ETUtilities_UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ETUtilities_UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ETUtilities_UITests/Pods-ETUtilities_UITests.release.xcconfig"; sourceTree = "<group>"; };
 		A4CFD9EA3A74FE122F8910D0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A6DF295683F562DF1A78ED6B /* Pods-ETUtilities_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ETUtilities_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ETUtilities_Tests/Pods-ETUtilities_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AC064433EB452198A577EF43 /* Pods-ETUtilities_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ETUtilities_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ETUtilities_Tests/Pods-ETUtilities_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -66,6 +83,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		71434CE51E29229F00A6432B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BAB756EACF9979FEDDB639D /* Pods_ETUtilities_UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -74,6 +99,7 @@
 			children = (
 				379CE007E58A5A706946CC21 /* Pods_ETUtilities_Example.framework */,
 				82CAE23A9647F791673AEB6B /* Pods_ETUtilities_Tests.framework */,
+				4D6C7B5D849CF3151C5E1929 /* Pods_ETUtilities_UITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -84,6 +110,7 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for ETUtilities */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				71434CE91E29229F00A6432B /* UITests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				EE8BA8296B68538CEA87A61F /* Pods */,
 				4ED354BC2F4B43E2247F31F0 /* Frameworks */,
@@ -95,6 +122,7 @@
 			children = (
 				607FACD01AFB9204008FA782 /* ETUtilities_Example.app */,
 				607FACE51AFB9204008FA782 /* ETUtilities_Tests.xctest */,
+				71434CE81E29229F00A6432B /* ETUtilities_UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,8 +152,9 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
+				607FACEB1AFB9204008FA782 /* CollectionTests.swift */,
+				711E896F1E28A8DE000175FE /* DictionaryTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -148,6 +177,16 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		71434CE91E29229F00A6432B /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				71434CEC1E29229F00A6432B /* Info.plist */,
+				71434CF41E29255E00A6432B /* ApplicationTests.swift */,
+			);
+			name = UITests;
+			path = ETUtilities_UITests;
+			sourceTree = "<group>";
+		};
 		EE8BA8296B68538CEA87A61F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +194,8 @@
 				630E67FD6BD113391819BACA /* Pods-ETUtilities_Example.release.xcconfig */,
 				AC064433EB452198A577EF43 /* Pods-ETUtilities_Tests.debug.xcconfig */,
 				A6DF295683F562DF1A78ED6B /* Pods-ETUtilities_Tests.release.xcconfig */,
+				7B30640342787E0E06574F06 /* Pods-ETUtilities_UITests.debug.xcconfig */,
+				90AE40B97B901289C6B3943F /* Pods-ETUtilities_UITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -192,6 +233,7 @@
 				607FACE31AFB9204008FA782 /* Resources */,
 				B0BADA1311604F19AE64FC8D /* [CP] Embed Pods Frameworks */,
 				3A6227E81ED47AAF92FAC5DB /* [CP] Copy Pods Resources */,
+				711E896C1E28A68D000175FE /* Fixes test build error */,
 			);
 			buildRules = (
 			);
@@ -203,15 +245,37 @@
 			productReference = 607FACE51AFB9204008FA782 /* ETUtilities_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		71434CE71E29229F00A6432B /* ETUtilities_UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71434CEF1E29229F00A6432B /* Build configuration list for PBXNativeTarget "ETUtilities_UITests" */;
+			buildPhases = (
+				171DDDFDD7595EB97DD35085 /* [CP] Check Pods Manifest.lock */,
+				71434CE41E29229F00A6432B /* Sources */,
+				71434CE51E29229F00A6432B /* Frameworks */,
+				71434CE61E29229F00A6432B /* Resources */,
+				71B730901E2CA9AB008D1246 /* [CP] Embed Pods Frameworks */,
+				151A82CDC11FADCB3E854A28 /* [CP] Copy Pods Resources */,
+				71434CF21E29238300A6432B /* Fixes test build error */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71434CEE1E29229F00A6432B /* PBXTargetDependency */,
+			);
+			name = ETUtilities_UITests;
+			productName = ETUtilities_UITests;
+			productReference = 71434CE81E29229F00A6432B /* ETUtilities_UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = CocoaPods;
+				ORGANIZATIONNAME = "Etnetera Mobile";
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -220,6 +284,11 @@
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0820;
+						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
+					71434CE71E29229F00A6432B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -239,6 +308,7 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* ETUtilities_Example */,
 				607FACE41AFB9204008FA782 /* ETUtilities_Tests */,
+				71434CE71E29229F00A6432B /* ETUtilities_UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,9 +331,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		71434CE61E29229F00A6432B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		151A82CDC11FADCB3E854A28 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ETUtilities_UITests/Pods-ETUtilities_UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		171DDDFDD7595EB97DD35085 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		3A6227E81ED47AAF92FAC5DB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -308,6 +415,48 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
+		};
+		711E896C1E28A68D000175FE /* Fixes test build error */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Fixes test build error";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# https://github.com/CocoaPods/CocoaPods/issues/4752\nfind ${TARGET_BUILD_DIR} -type d -name \"*.framework\" -exec cp -Rf {} ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ \\;";
+		};
+		71434CF21E29238300A6432B /* Fixes test build error */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Fixes test build error";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# https://github.com/CocoaPods/CocoaPods/issues/4752\nfind ${TARGET_BUILD_DIR} -type d -name \"*.framework\" -exec cp -Rf {} ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ \\;";
+		};
+		71B730901E2CA9AB008D1246 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ETUtilities_Tests/Pods-ETUtilities_Tests-frameworks.sh\"\n";
 		};
 		B0BADA1311604F19AE64FC8D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -370,7 +519,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				607FACEC1AFB9204008FA782 /* CollectionTests.swift in Sources */,
+				711E89711E28A947000175FE /* DictionaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71434CE41E29229F00A6432B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71434CF51E29255E00A6432B /* ApplicationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +539,11 @@
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* ETUtilities_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+		};
+		71434CEE1E29229F00A6432B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* ETUtilities_Example */;
+			targetProxy = 71434CED1E29229F00A6432B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -498,6 +661,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ETUtilities/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -513,6 +677,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ETUtilities/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -559,6 +724,40 @@
 			};
 			name = Release;
 		};
+		71434CF01E29229F00A6432B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B30640342787E0E06574F06 /* Pods-ETUtilities_UITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = ETUtilities_UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.jancislinsky.ETUtilities-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ETUtilities_Example;
+			};
+			name = Debug;
+		};
+		71434CF11E29229F00A6432B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90AE40B97B901289C6B3943F /* Pods-ETUtilities_UITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				INFOPLIST_FILE = ETUtilities_UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.jancislinsky.ETUtilities-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ETUtilities_Example;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -585,6 +784,15 @@
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
 				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71434CEF1E29229F00A6432B /* Build configuration list for PBXNativeTarget "ETUtilities_UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71434CF01E29229F00A6432B /* Debug */,
+				71434CF11E29229F00A6432B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -52,6 +52,16 @@
                ReferencedContainer = "container:ETUtilities.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "71434CE71E29229F00A6432B"
+               BuildableName = "ETUtilities_UITests.xctest"
+               BlueprintName = "ETUtilities_UITests"
+               ReferencedContainer = "container:ETUtilities.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
