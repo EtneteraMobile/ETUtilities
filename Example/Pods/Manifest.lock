@@ -1,5 +1,7 @@
 PODS:
-  - ETUtilities (2.0)
+  - DeviceKit (1.0.1)
+  - ETUtilities (2.0):
+    - DeviceKit (~> 1.0)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -26,7 +28,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ETUtilities: 17dbb701257b340afd69276231278b8fb05bae29
+  DeviceKit: 461e525867e48e725f41699c1cab3100df1258ff
+  ETUtilities: cfbc350c835197bdc156d7be9cb5990c39b4fe14
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Nimble-Snapshots: e743439f26c2fa99d8f7e0d7c01c99bcb40aa6f2

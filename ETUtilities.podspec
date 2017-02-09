@@ -31,5 +31,8 @@ TODO: Add long description of the pod here.
   s.source_files = 'ETUtilities/Classes/**/*'
 
   s.frameworks = 'UIKit'
+
+  # External dependencies
+  s.dependency 'DeviceKit', '~> 1.0'
   
 end

@@ -15,6 +15,9 @@
 		607FACEC1AFB9204008FA782 /* CollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* CollectionTests.swift */; };
 		711E89711E28A947000175FE /* DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711E896F1E28A8DE000175FE /* DictionaryTests.swift */; };
 		713FF32F1E4C42640024BA62 /* CellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713FF32E1E4C42640024BA62 /* CellTests.swift */; };
+		713FF3331E4C5AC00024BA62 /* ImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713FF3321E4C5AC00024BA62 /* ImageViewTests.swift */; };
+		713FF3361E4C62AA0024BA62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713FF3351E4C62AA0024BA62 /* Assets.xcassets */; };
+		713FF3371E4C63920024BA62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713FF3351E4C62AA0024BA62 /* Assets.xcassets */; };
 		71434CF51E29255E00A6432B /* ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71434CF41E29255E00A6432B /* ApplicationTests.swift */; };
 		93AB11E1AD752BA146A2A103 /* Pods_ETUtilities_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CAE23A9647F791673AEB6B /* Pods_ETUtilities_Tests.framework */; };
 		9932FF161FEAA0B6C9168CE1 /* Pods_ETUtilities_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379CE007E58A5A706946CC21 /* Pods_ETUtilities_Example.framework */; };
@@ -55,6 +58,8 @@
 		630E67FD6BD113391819BACA /* Pods-ETUtilities_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ETUtilities_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ETUtilities_Example/Pods-ETUtilities_Example.release.xcconfig"; sourceTree = "<group>"; };
 		711E896F1E28A8DE000175FE /* DictionaryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryTests.swift; sourceTree = "<group>"; };
 		713FF32E1E4C42640024BA62 /* CellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellTests.swift; sourceTree = "<group>"; };
+		713FF3321E4C5AC00024BA62 /* ImageViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewTests.swift; sourceTree = "<group>"; };
+		713FF3351E4C62AA0024BA62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71434CE81E29229F00A6432B /* ETUtilities_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ETUtilities_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71434CEC1E29229F00A6432B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71434CF41E29255E00A6432B /* ApplicationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationTests.swift; sourceTree = "<group>"; };
@@ -158,6 +163,8 @@
 				607FACEB1AFB9204008FA782 /* CollectionTests.swift */,
 				711E896F1E28A8DE000175FE /* DictionaryTests.swift */,
 				713FF32E1E4C42640024BA62 /* CellTests.swift */,
+				713FF3321E4C5AC00024BA62 /* ImageViewTests.swift */,
+				713FF3351E4C62AA0024BA62 /* Assets.xcassets */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -323,6 +330,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				713FF3371E4C63920024BA62 /* Assets.xcassets in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +339,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				713FF3361E4C62AA0024BA62 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +531,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				713FF3331E4C5AC00024BA62 /* ImageViewTests.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* CollectionTests.swift in Sources */,
 				711E89711E28A947000175FE /* DictionaryTests.swift in Sources */,
 				713FF32F1E4C42640024BA62 /* CellTests.swift in Sources */,
