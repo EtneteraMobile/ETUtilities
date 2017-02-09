@@ -1,6 +1,6 @@
 //
 //  Dictionary+ET.swift
-//  Pods
+//  ETUtilities
 //
 //  Created by Jan Čislinský on 13/01/2017.
 //

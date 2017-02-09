@@ -1,6 +1,6 @@
 //
 //  NSArray+ET.swift
-//  Pods
+//  ETUtilities
 //
 //  Created by Jan Čislinský on 12/01/2017.
 //

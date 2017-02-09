@@ -1,6 +1,6 @@
 //
 //  Application+ET.swift
-//  Pods
+//  ETUtilities
 //
 //  Created by Jan Čislinský on 13/01/2017.
 //
@@ -27,7 +27,6 @@ public extension UIApplication {
     /// - Author: Jan Cislinsky
     /// - Since: 01/2017
     static var et_versionName: String? {
-        et_versionBuild
         return Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String
     }
 
