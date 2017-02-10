@@ -41,7 +41,7 @@ public extension RangeReplaceableCollection where Iterator.Element: Equatable {
     ///
     /// Calling this method may invalidate any existing indices for use with this
     /// collection.
-    ///
+    /// 
     /// - Parameter element: The element to remove.
     /// - Returns: The removed element.
     ///

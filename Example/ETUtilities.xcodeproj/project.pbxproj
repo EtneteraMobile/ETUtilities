@@ -19,6 +19,9 @@
 		713FF3361E4C62AA0024BA62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713FF3351E4C62AA0024BA62 /* Assets.xcassets */; };
 		713FF3371E4C63920024BA62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713FF3351E4C62AA0024BA62 /* Assets.xcassets */; };
 		71434CF51E29255E00A6432B /* ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71434CF41E29255E00A6432B /* ApplicationTests.swift */; };
+		71FDA0E51E4C7AF2001B58FA /* FloatingPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FDA0E31E4C7A13001B58FA /* FloatingPointTests.swift */; };
+		71FDA0EB1E4CCF3D001B58FA /* DeviceDependableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FDA0E91E4CCF38001B58FA /* DeviceDependableTests.swift */; };
+		71FDA1041E4D91A3001B58FA /* NumberConversionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FDA1031E4D91A3001B58FA /* NumberConversionsTests.swift */; };
 		93AB11E1AD752BA146A2A103 /* Pods_ETUtilities_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CAE23A9647F791673AEB6B /* Pods_ETUtilities_Tests.framework */; };
 		9932FF161FEAA0B6C9168CE1 /* Pods_ETUtilities_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379CE007E58A5A706946CC21 /* Pods_ETUtilities_Example.framework */; };
 		9BAB756EACF9979FEDDB639D /* Pods_ETUtilities_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6C7B5D849CF3151C5E1929 /* Pods_ETUtilities_UITests.framework */; };
@@ -63,6 +66,9 @@
 		71434CE81E29229F00A6432B /* ETUtilities_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ETUtilities_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71434CEC1E29229F00A6432B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71434CF41E29255E00A6432B /* ApplicationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationTests.swift; sourceTree = "<group>"; };
+		71FDA0E31E4C7A13001B58FA /* FloatingPointTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingPointTests.swift; sourceTree = "<group>"; };
+		71FDA0E91E4CCF38001B58FA /* DeviceDependableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceDependableTests.swift; sourceTree = "<group>"; };
+		71FDA1031E4D91A3001B58FA /* NumberConversionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberConversionsTests.swift; sourceTree = "<group>"; };
 		78444BF3076B574DFA4997F7 /* ETUtilities.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ETUtilities.podspec; path = ../ETUtilities.podspec; sourceTree = "<group>"; };
 		7B30640342787E0E06574F06 /* Pods-ETUtilities_UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ETUtilities_UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ETUtilities_UITests/Pods-ETUtilities_UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		82CAE23A9647F791673AEB6B /* Pods_ETUtilities_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ETUtilities_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -164,6 +170,9 @@
 				711E896F1E28A8DE000175FE /* DictionaryTests.swift */,
 				713FF32E1E4C42640024BA62 /* CellTests.swift */,
 				713FF3321E4C5AC00024BA62 /* ImageViewTests.swift */,
+				71FDA0E91E4CCF38001B58FA /* DeviceDependableTests.swift */,
+				71FDA1031E4D91A3001B58FA /* NumberConversionsTests.swift */,
+				71FDA0E31E4C7A13001B58FA /* FloatingPointTests.swift */,
 				713FF3351E4C62AA0024BA62 /* Assets.xcassets */,
 			);
 			path = Tests;
@@ -532,7 +541,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				713FF3331E4C5AC00024BA62 /* ImageViewTests.swift in Sources */,
+				71FDA0EB1E4CCF3D001B58FA /* DeviceDependableTests.swift in Sources */,
+				71FDA1041E4D91A3001B58FA /* NumberConversionsTests.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* CollectionTests.swift in Sources */,
+				71FDA0E51E4C7AF2001B58FA /* FloatingPointTests.swift in Sources */,
 				711E89711E28A947000175FE /* DictionaryTests.swift in Sources */,
 				713FF32F1E4C42640024BA62 /* CellTests.swift in Sources */,
 			);

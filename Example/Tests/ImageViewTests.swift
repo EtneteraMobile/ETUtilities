@@ -4,7 +4,7 @@ import Quick
 import Nimble
 import ETUtilities
 
-class ImageView: QuickSpec {
+class ImageViewTests: QuickSpec {
 
     override func spec() {
 

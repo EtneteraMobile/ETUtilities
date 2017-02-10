@@ -4,7 +4,7 @@ import Quick
 import Nimble
 import ETUtilities
 
-class Collection: QuickSpec {
+class CollectionTests: QuickSpec {
     override func spec() {
         
         describe("et_safe subscript") {

@@ -4,7 +4,7 @@ import Quick
 import Nimble
 import ETUtilities
 
-class Dictionary: QuickSpec {
+class DictionaryTests: QuickSpec {
 
     enum TransformError: Error {
         case Error

@@ -4,7 +4,7 @@ import Quick
 import Nimble
 import ETUtilities
 
-class Cell: QuickSpec {
+class CellTests: QuickSpec {
 
     override func spec() {
 
